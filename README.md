@@ -52,7 +52,10 @@ This project is a simple payroll system made in Java. It was created for our cli
 We made this because MotorPH needs it, and at the same time this project helps me understand how Java programming works with files, loops, and conditionals. It also shows how real‑life formulas like SSS, PhilHealth, Pag‑IBIG, and BIR tax can be applied in code. Doing this project makes me learn not just coding but also how payroll systems are used in companies.
 
 File reading (BufferedReader)
-
+Reason why BufferedReader is used:
+1. It is low cost when it comes to time because if we will read those characters from a file that has more than lines, it will be time consuming.
+2. The next reason is, easier writing method when the program is run. For example, when we use it, this provides the readline method where this method is allowing the smooth flow and process of the program where we do not have to read the array of each characters from each code one by one to save time and energy.
+3. BufferedReader can also save our system from crashing and lagging.
 Data structures (HashMap, TreeMap)
 
 Loops and conditionals
