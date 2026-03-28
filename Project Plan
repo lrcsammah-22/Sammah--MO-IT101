@@ -1,0 +1,39 @@
+Based on the repository and the common curriculum for IT101 (Computer Programming 1), this project plan is designed to help you build and document a foundational software application.
+
+Project Overview: [Project Name, e.g., Employee Management System]
+**Goal:** To develop a functional console-based application that demonstrates core programming concepts like File I/O (BufferedReader), conditional logic, and data processing.
+
+Phase 1: Initiation & Analysis (Week 1)
+Focus: Defining the "What" and "How"
+**Finalize Requirements:** Identify the specific data fields needed (e.g., Employee Name, ID, Hours Worked, Hourly Rate).
+**Logic Formulation:** Draft a flowchart or pseudocode to outline how the program will calculate totals (e.g., Salary = Hours * Rate).
+**Environment Setup:** Ensure Java Development Kit (JDK) and an IDE (like Eclipse or VS Code) are configured.
+
+Phase 2: Design & Data Structuring (Week 2)
+Focus: Planning the Input/Output
+**Database Simulation:** Create a sample Employees.csv or .txt file with test data.
+**Class Architecture:** Define the structure of your Java classes (e.g., an Employee class to hold attributes).
+**UI Mockup:** Sketch the console output format (how the "Results" or "Salary Slips" will look in the terminal).
+
+Phase 3: Development & Coding (Weeks 3-4)
+Focus: Building the Core Functionality
+**Module 1: File Reading:** Implement the BufferedReader class to successfully pull data from your CSV/text file.
+**Module 2: Processing Engine:** Write the calculation logic (handling data types, parsing strings to doubles/integers).
+**Module 3: Error Handling:** Add try-catch blocks to handle "File Not Found" or "Invalid Data" errors without crashing.
+
+Phase 4: Testing & Debugging (Week 5)
+Focus: Quality Assurance
+**Unit Testing:** Test individual methods with "edge case" data (e.g., zero hours worked, very high salaries).
+**Integration Testing:** Run the full program from start to finish to ensure the CSV data maps correctly to the console output.
+**Code Cleanup:** Remove redundant code and add professional comments to explain complex logic to your professor.
+
+Phase 5: Documentation & Presentation (Final Week)
+Focus: Final Deliverables
+**Prepare Presentation:** Create slides covering "Virus Behavior" (if part of your outbreak analysis task), "Demographics," and "Death Trends" using the generated bar graphs.
+**Repository Finalization:** Push the final code, README, and datasets to your GitHub repository.
+**Submission:** Compile the PDF report using the required naming convention (e.g., FinalProject_Lastname_Firstname.pdf).
+
+Concrete Action Items for This Week:
+1.  **Validate Data:** Open your Employees.csv and ensure there are no empty rows that might cause a NullPointerException.
+2.  **Draft Pseudocode:** Write down the 5 steps your main method must take (Open file -> Read line -> Split string -> Calculate -> Print).
+3.  **Update GitHub:** Create a README.md in your repository explaining how to run the project.
